@@ -1,0 +1,5 @@
+<launch>
+ <param name="speed_limit" value="80.0" type="double"/>
+ <node name="speed_publisher_node1" pkg="project" type="speed_pub" />
+ <node name="speed_limitor_node1" pkg="project" type="speed_limiter" />
+</launch>
